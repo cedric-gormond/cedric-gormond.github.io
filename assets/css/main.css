@@ -1135,7 +1135,7 @@
 	}
 
 	a {
-		color: #5e7784;
+		color: #afc9d3;
 		text-decoration: none;
 		font-weight: normal;
 	}
@@ -2794,14 +2794,14 @@
 	}
 
 	.papertitle {
-		font-style: italic;
+		/* font-style: italic; */
 		font-weight: 600;
 	}
 
 	.papertitle a {
-		font-style: italic;
+		 /** font-style: italic; **/
 		font-weight: 600;
-		color: #5d5d5d;
+		color: #afc9d3;
 	}
 
 	.paperfiles {
