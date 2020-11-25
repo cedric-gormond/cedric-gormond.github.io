@@ -1425,12 +1425,27 @@
     color: #f8c91f;
 }
 
+.ccpp {
+    font-size: 1.3em;
+    color: #f8c91f;
+}
+
 .cjournal {
     font-size: 1.3em;
     color: #c32b72;
 }
 
-.cconf {
+.cjava {
+    font-size: 1.3em;
+    color: #c32b72;
+}
+
+.cmatlab {
+    font-size: 1.3em;
+    color: #800000;
+}
+
+.cpython {
     font-size: 1.3em;
     color: #196ca3;
 }
@@ -1482,13 +1497,29 @@
             color: #f8c91f;
         }
 
+		ul.pub li.cpp:before {
+			color: #f8c91f;
+		}
+
         ul.pub li.journal:before {
             color: #c32b72;
         }
 
+		ul.pub li.java:before {
+			color: #c32b72;
+		}
+
         ul.pub li.conf:before {
             color: #196ca3;
         }
+
+		ul.pub li.python:before {
+            color: #196ca3;
+        }
+
+		ul.pub li.matlab:before {
+			color: #800000;
+		}
 
 	ul.contact li {
 		position: relative;
