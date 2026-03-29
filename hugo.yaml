@@ -30,6 +30,11 @@ params:
     - name: email
       url: "mailto:cedric.gormond@gmail.com"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menu:
   main:
     - name: CV
