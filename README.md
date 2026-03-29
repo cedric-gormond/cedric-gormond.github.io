@@ -1,1 +1,0 @@
-# cedric-gormond.github.io

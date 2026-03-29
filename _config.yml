@@ -1,0 +1,5 @@
+title: Cédric Gormond
+description: Senior Data Scientist / ML Engineer · Paris, France
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
