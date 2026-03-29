@@ -1,0 +1,374 @@
+<!DOCTYPE html><html lang="fr-FR"><head><link media="all" href="https://www.mines-stetienne.fr/wp-content/cache/autoptimize/1/css/autoptimize_d89530d5e8e9ee11e74577d67abfd091.css" rel="stylesheet"><title>La page est introuvable - École des Mines de Saint-Étienne</title><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="google-site-verification" content="WhBt4AKRwYnwgx02_vWd0FJsz8Zi6hybMgbO8sbLYHI" /><link rel="profile" href="https://gmpg.org/xfn/11" /><link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" /> <!--[if lt IE 9]> <script src="/lib/respond.min.js"></script> <![endif]-->  <script data-category="functional">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJDWD4PD');
+
+const revokeListeners = [];
+window.addRevokeListener = (callback) => {
+	revokeListeners.push(callback);
+};
+document.addEventListener("cmplz_revoke", function (e) {
+	cmplz_set_cookie('cmplz_consent_mode', 'revoked', false );
+	revokeListeners.forEach((callback) => {
+		callback();
+	});
+});
+
+const consentListeners = [];
+/**
+ * Called from GTM template to set callback to be executed when user consent is provided.
+ * @param callback
+ */
+window.addConsentUpdateListener = (callback) => {
+	consentListeners.push(callback);
+};
+document.addEventListener("cmplz_fire_categories", function (e) {
+	var consentedCategories = e.detail.categories;
+	const consent = {
+		'security_storage': "granted",
+		'functionality_storage': "granted",
+		'personalization_storage':  cmplz_in_array( 'preferences', consentedCategories ) ? 'granted' : 'denied',
+		'analytics_storage':  cmplz_in_array( 'statistics', consentedCategories ) ? 'granted' : 'denied',
+		'ad_storage': cmplz_in_array( 'marketing', consentedCategories ) ? 'granted' : 'denied',
+		'ad_user_data': cmplz_in_array( 'marketing', consentedCategories ) ? 'granted' : 'denied',
+		'ad_personalization': cmplz_in_array( 'marketing', consentedCategories ) ? 'granted' : 'denied',
+	};
+
+	//don't use automatic prefixing, as the TM template needs to be sure it's cmplz_.
+	let consented = [];
+	for (const [key, value] of Object.entries(consent)) {
+		if (value === 'granted') {
+			consented.push(key);
+		}
+	}
+	cmplz_set_cookie('cmplz_consent_mode', consented.join(','), false );
+	consentListeners.forEach((callback) => {
+		callback(consent);
+	});
+});</script><meta name='robots' content='noindex, follow' />  <script data-cfasync="false" data-pagespeed-no-defer>var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];</script> <meta property="og:locale" content="fr_FR" /><meta property="og:title" content="La page est introuvable - École des Mines de Saint-Étienne" /><meta property="og:site_name" content="École des Mines de Saint-Étienne" /> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.mines-stetienne.fr/#website","url":"https://www.mines-stetienne.fr/","name":"École des Mines de Saint-Étienne","description":"Inspiring innovation","publisher":{"@id":"https://www.mines-stetienne.fr/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.mines-stetienne.fr/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"},{"@type":"Organization","@id":"https://www.mines-stetienne.fr/#organization","name":"École des Mines de Saint-Étienne","url":"https://www.mines-stetienne.fr/","logo":{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https://www.mines-stetienne.fr/#/schema/logo/image/","url":"https://www.mines-stetienne.fr/wp-content/uploads/2018/05/Mines_Saint_Etienne_IMT_RVB.png","contentUrl":"https://www.mines-stetienne.fr/wp-content/uploads/2018/05/Mines_Saint_Etienne_IMT_RVB.png","width":316,"height":315,"caption":"École des Mines de Saint-Étienne"},"image":{"@id":"https://www.mines-stetienne.fr/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/MinesSaintEtienne","https://x.com/MINES_StEtienne","https://www.youtube.com/channel/UCVSdpdmJccvUngjJ2on1n3A"]}]}</script> <link rel='dns-prefetch' href='//challenges.cloudflare.com' /><style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */</style><style id='wp-emoji-styles-inline-css' type='text/css'>img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */</style><style id='classic-theme-styles-inline-css' type='text/css'>/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */</style><style id='global-styles-inline-css' type='text/css'>:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */</style><style id='flexible-table-block-inline-css' type='text/css'>.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table>table{width:100%;max-width:100%;border-collapse:collapse;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table.is-style-stripes tbody tr:nth-child(odd) th{background-color:#f0f0f1;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table.is-style-stripes tbody tr:nth-child(odd) td{background-color:#f0f0f1;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table.is-style-stripes tbody tr:nth-child(even) th{background-color:#ffffff;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table.is-style-stripes tbody tr:nth-child(even) td{background-color:#ffffff;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table>table tr th,.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table>table tr td{padding:0.5em;border-width:1px;border-style:solid;border-color:#000000;text-align:left;vertical-align:middle;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table>table tr th{background-color:#f0f0f1;}.wp-block-flexible-table-block-table.wp-block-flexible-table-block-table>table tr td{background-color:#ffffff;}@media screen and (min-width:769px){.wp-block-flexible-table-block-table.is-scroll-on-pc{overflow-x:scroll;}.wp-block-flexible-table-block-table.is-scroll-on-pc table{max-width:none;align-self:self-start;}}@media screen and (max-width:768px){.wp-block-flexible-table-block-table.is-scroll-on-mobile{overflow-x:scroll;}.wp-block-flexible-table-block-table.is-scroll-on-mobile table{max-width:none;align-self:self-start;}.wp-block-flexible-table-block-table table.is-stacked-on-mobile th,.wp-block-flexible-table-block-table table.is-stacked-on-mobile td{width:100%!important;display:block;}}
+/*# sourceURL=flexible-table-block-inline-css */</style><link rel='stylesheet' id='elementor-post-66184-css' href='https://www.mines-stetienne.fr/wp-content/uploads/elementor/css/post-66184.css?ver=1774737131' type='text/css' media='all' /><link rel='stylesheet' id='elementor-post-68952-css' href='https://www.mines-stetienne.fr/wp-content/uploads/elementor/css/post-68952.css?ver=1774737131' type='text/css' media='all' /> <script type="text/javascript" src="https://www.mines-stetienne.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script> <script type="text/javascript" id="sib-front-js-js-extra">var sibErrMsg = {"invalidMail":"Veuillez entrer une adresse e-mail valide.","requiredField":"Veuillez compl\u00e9ter les champs obligatoires.","invalidDateFormat":"Veuillez entrer une date valide.","invalidSMSFormat":"Veuillez entrer une num\u00e9ro de t\u00e9l\u00e9phone valide."};
+var ajax_sib_front_object = {"ajax_url":"https://www.mines-stetienne.fr/wp-admin/admin-ajax.php","ajax_nonce":"3febf1c9f3","flag_url":"https://www.mines-stetienne.fr/wp-content/plugins/mailin/img/flags/"};
+//# sourceURL=sib-front-js-js-extra</script> <link rel="https://api.w.org/" href="https://www.mines-stetienne.fr/wp-json/" /><script>document.documentElement.className += " js";</script> <style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+ <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">var dataLayer_content = {"siteID":1,"siteName":"École des Mines de Saint-Étienne","visitorLoginState":"logged-out","pageTitle":"La page est introuvable - École des Mines de Saint-Étienne","pagePostType":"404-error","pagePostType2":"single-","browserName":"Curl","browserVersion":"8.7.1","browserEngineName":"","browserEngineVersion":"","osName":"","osVersion":"","deviceType":"bot","deviceManufacturer":"","deviceModel":""};
+	dataLayer.push( dataLayer_content );</script> <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">console.warn && console.warn("[GTM4WP] Google Tag Manager container code placement set to OFF !!!");
+	console.warn && console.warn("[GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!");</script> <meta name="generator" content="Elementor 3.35.9; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto"><style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}</style><noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><link rel="icon" href="https://www.mines-stetienne.fr/wp-content/uploads/2021/07/cropped-Favico_Mines_Saint_Etienne-32x32.png" sizes="32x32" /><link rel="icon" href="https://www.mines-stetienne.fr/wp-content/uploads/2021/07/cropped-Favico_Mines_Saint_Etienne-192x192.png" sizes="192x192" /><link rel="apple-touch-icon" href="https://www.mines-stetienne.fr/wp-content/uploads/2021/07/cropped-Favico_Mines_Saint_Etienne-180x180.png" /><meta name="msapplication-TileImage" content="https://www.mines-stetienne.fr/wp-content/uploads/2021/07/cropped-Favico_Mines_Saint_Etienne-270x270.png" /><style type="text/css" id="wp-custom-css">/* Réorganiser le champ paragraphe 728 */
+#frm_field_728_container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Forcer l'ordre visuel : label, description, textarea */
+#frm_field_728_container label.frm_primary_label {
+  order: 1;
+}
+
+#frm_field_728_container .frm_description {
+  order: 2;
+  margin-bottom: 6px;
+}
+
+#frm_field_728_container textarea {
+  order: 3;
+}</style></head><body class="attachment error404 wp-singular -template-default attachmentid-0 attachment- wp-theme-emse"><div class="Wrapper"><div class="NavTop"><div class="container"><div class="links"> École des Mines de Saint-Étienne - 
+ Inspiring innovation</div><div class="NavTop-right"><div class="btns-reseau"> <a target="_blank" href="https://www.facebook.com/MinesSaintEtienne" class="link-reseau facebook">Facebook</a> <a target="_blank" href="https://x.com/MINES_StEtienne" class="link-reseau twitter">X</a> <a target="_blank" href="https://www.linkedin.com/school/527715/" class="link-reseau linkedin">LinkedIn</a> <a target="_blank" href="https://www.youtube.com/c/Mines-stetienneFr" class="link-reseau youtube">Youtube</a> <a target="_blank" href="https://www.instagram.com/mines_stetienne/" class="link-reseau instagram">Instagram</a> <a target="_blank" href="https://www.researchgate.net/institution/Mines_Saint-Etienne" class="link-reseau researchgate">Research Gate</a> <a target="_blank" href="https://scholar.google.fr/citations?view_op=view_org&hl=fr&org=7960713268845667563" class="link-reseau googlescholar">Google Scholar</a></div><div class="langues"> <span class="selected Flag fr">FR</span><ul><li><a href="https://www.mines-stetienne.fr/en/" class="Flag uk" title="UK">UK</a></li></ul></div> <a href="#0" class="search">Rechercher</a></div></div></div><div class="SearchBox"> <a href="#0" class="SearchBox-close">Fermer</a><form role="search" method="get" id="searchform" class="searchform" action="https://www.mines-stetienne.fr/"><div> <label class="screen-reader-text" for="s">Rechercher :</label> <input type="text" value="" name="s" id="s" /> <input type="submit" id="searchsubmit" value="Rechercher" /></div></form></div><header class="Header"><div class="container"><div class="col-sm-3 wrapLogo"> <a href="https://www.mines-stetienne.fr/" title="École des Mines de Saint-Étienne" rel="home" class="Logo"> </a></div> <a href="#0" class="BtnMenu">Menu</a><nav class="MainNav col-sm-9"><div class="menu-navigation-container"><ul id="menu-navigation" class="menu"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.mines-stetienne.fr/lecole/">École</a></li><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://www.mines-stetienne.fr/formation-mines-saint-etienne/">Formation</a></li><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.mines-stetienne.fr/recherche/">Recherche</a></li><li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.mines-stetienne.fr/entreprise/">Entreprise</a></li><li id="menu-item-16245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16245"><a href="https://www.mines-stetienne.fr/international/">International</a></li><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="https://www.mines-stetienne.fr/culture-scientifique/">Culture scientifique</a></li><li id="menu-item-60622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60622"><a href="https://www.mines-stetienne.fr/campus/">Campus</a></li></ul></div></nav></div></header><div class="Main clearfix"><div class="EntetePage"><div class="container"><div class="EntetePage-fill col-sm-3"></div><div class="EntetePage-content col-sm-9"><h2 class="EntetePage-title">MINES Saint-&Eacute;tienne</h2><div class="Breadcrumbs"><span><span><a href="https://www.mines-stetienne.fr/">Accueil</a></span> <span class="sep">|</span> <span class="breadcrumb_last" aria-current="page">Erreur 404 : Page introuvable</span></span></div></div></div></div><div class="Page"><div class="container"><div class="col-sm-8 Page-content"><h1 class="entry-title">Rien de trouvé</h1><div class="entry-content"><p>Toutes nos excuses, mais la page que vous demandez est introuvable. Essayez de lancer une recherche.</p><form role="search" method="get" id="searchform" class="searchform" action="https://www.mines-stetienne.fr/"><div> <label class="screen-reader-text" for="s">Rechercher :</label> <input type="text" value="" name="s" id="s" /> <input type="submit" id="searchsubmit" value="Rechercher" /></div></form></div> <script type="text/javascript">// focus on search field after it has loaded
+		document.getElementById('s') && document.getElementById('s').focus();</script> </div><div class="col-sm-4 Page-side"></div></div></div></div><footer class="Footer"><div class="container"><div class="col-sm-9"><div class="row"><ul class="col-sm-3"><li><a href="https://www.mines-stetienne.fr/contact/">Contact</a></li><li><a href="https://www.mines-stetienne.fr/annuaire/">Annuaire</a></li><li><a href="https://www.mines-stetienne.fr/plans-dacces/">Plans d'accès</a></li><li><a href="https://www.mines-stetienne.fr/visite-virtuelle/" target="_blank">Visite virtuelle</a></li><li><a href="https://www.mines-stetienne.fr/lecole/egalite-femmes-hommes/violence-sexiste-et-sexuelle/">Violences sexistes et sexuelles</a></li></ul><ul class="col-sm-3"><li><a href="https://www.mines-stetienne.fr/lecole/bibliotheque/">Bibliothèque</a></li><li><a href="https://www.mines-stetienne.fr/offresdemploi/">Offres d’emploi</a></li><li><a href="https://www.mines-stetienne.fr/presse/">Presse</a></li><li><a href="https://www.mines-stetienne.fr/marches-publics/">Marchés publics</a></li><li><a href="https://www.mines-stetienne.fr/reglements/">Règlements</a></li></ul><ul class="col-sm-3"><li><a href="https://www.mines-stetienne.fr/lecole/mines-saint-etienne-alumni/">Alumni</a></li><li><a href="https://www.fondation-mines-telecom.org">Fondation Mines-Télécom</a></li><li><a href="https://www.mines-stetienne.fr/bicentenaire2016" target="_blank">Bicentenaire</a></li></ul><ul class="col-sm-3"><li><a href="https://portail.emse.fr" target="_blank">Portail interne</a></li><li><a href="https://partage.emse.fr" target="_blank">Messagerie</a></li><li><a href="https://services-numeriques.emse.fr" target="_blank">Services numériques</a></li><li><a href="https://www.emse.fr/CEM" target="_blank">Cercle d'études des métaux</a></li><li><a href="https://cas.emse.fr/login?service=https://www.mines-stetienne.fr/intranet/">S'authentifier</a></li></ul></div></div><div class="col-sm-3 Newsletter"><h4 class="Newsletter-title" style="padding-left: 20px;"> <a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY4OTUyIiwidG9nZ2xlIjpmYWxzZX0%3D"> <span class="br" >Inscrivez-vous</span> <span class="br">à notre lettre d’informations</span> </a></h4></div></div><div class="credits"> <a href="https://www.mines-stetienne.fr/" rel="home">École des Mines de Saint-Étienne</a> - <a href="https://www.mines-stetienne.fr/mentions-legales/">Mentions légales</a> - <a href="https://www.mines-stetienne.fr/mentions-legales/politique-de-confidentialite/">Politique de confidentialité</a> - <a href="https://www.mines-stetienne.fr/mentions-legales/politique-de-cookies-ue/">Politique de cookies (UE)</a> - <a href="https://www.mines-stetienne.fr/mentions-legales/accessibilite/">Accessibilité</a> - <a href="https://www.mines-stetienne.fr/plan-du-site/">Plan du site</a> - 
+ Cr&eacute;dits : <a href="https://www.iris-interactive.fr" target="_blank">IRIS Interactive</a></div><div class="logos"> <a href="https://www.economie.gouv.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAABQAQMAAACqFlBdAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAABFJREFUGBljGAWjYBSMAigAAAQQAAELgtCNAAAAAElFTkSuQmCC" alt="Ministère de l'économie, des finances et d'Industrie" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/Ministere_Economie_Finances_Industrie.png" decoding="async" class="lazyload" data-eio-rwidth="94" data-eio-rheight="80"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/Ministere_Economie_Finances_Industrie.png" alt="Ministère de l'économie, des finances et d'Industrie" data-eio="l"></noscript></a> <a href="https://www.imt.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAA3AQMAAAAbjddsAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUGBljGAWjYBQMdgAAA6cAAQLIREEAAAAASUVORK5CYII=" alt="Institut Mines-Telecom" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/mines-telecom.png" decoding="async" class="lazyload" data-eio-rwidth="125" data-eio-rheight="55"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/mines-telecom.png" alt="Institut Mines-Telecom" data-eio="l"></noscript></a> <a href="https://www.universite-lyon.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABMAQMAAACcQeEqAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABFJREFUGBljGAWjYBSMgiEKAATAAAHhMwbSAAAAAElFTkSuQmCC" alt="Université de Lyon" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/udl-etablissement_associe.png" decoding="async" class="lazyload" data-eio-rwidth="120" data-eio-rheight="76"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/udl-etablissement_associe.png" alt="Université de Lyon" data-eio="l"></noscript></a> <a href="https://www.cnrs.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3AQMAAACSFUAFAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA1JREFUGBljGAVDEgAAAbgAAdk/KPgAAAAASUVORK5CYII=" alt="CNRS" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/cnrs_2019.png" decoding="async" class="lazyload" data-eio-rwidth="55" data-eio-rheight="55"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/cnrs_2019.png" alt="CNRS" data-eio="l"></noscript></a> <a href="https://www.inserm.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAA3AQMAAAASZncWAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUGBljGAWjYBQMdgAAA6cAAQLIREEAAAAASUVORK5CYII=" alt="INSERM" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/inserm.png" decoding="async" class="lazyload" data-eio-rwidth="121" data-eio-rheight="55"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/inserm.png" alt="INSERM" data-eio="l"></noscript></a> <a href="https://www.cti-commission.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA3AQMAAAChLl8MAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA5JREFUGBljGAWjgFYAAAJdAAEz/H8bAAAAAElFTkSuQmCC" alt="Commission des Titres d'Ingénieur" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/cti.png" decoding="async" class="lazyload" data-eio-rwidth="80" data-eio-rheight="55"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/cti.png" alt="Commission des Titres d'Ingénieur" data-eio="l"></noscript></a> <a href="https://www.carnot-mines.eu/fr" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAAA8AQMAAADrKTJ3AAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABNJREFUGBljGAWjYBSMglEw7AAABdwAAYwWfW0AAAAASUVORK5CYII=" alt="Institut Carnot M.I.N.E.S" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/carnot_logo_horizontal_final.png" decoding="async" class="lazyload" data-eio-rwidth="186" data-eio-rheight="60"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/carnot_logo_horizontal_final.png" alt="Institut Carnot M.I.N.E.S" data-eio="l"></noscript></a> <a href="https://www.cge.asso.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAA3AQMAAABTvsjsAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABFJREFUGBljGAWjYBSMgiEHAAS6AAEEy/iKAAAAAElFTkSuQmCC" alt="Conférence des Grandes Écoles" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/cge.png" decoding="async" class="lazyload" data-eio-rwidth="167" data-eio-rheight="55"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/cge.png" alt="Conférence des Grandes Écoles" data-eio="l"></noscript></a> <a href="https://www.college-ingenierie.fr/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAA0AQMAAADR32p/AAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAABFJREFUGBljGAWjYBSMAjoDAAR4AAE7k7VcAAAAAElFTkSuQmCC" alt="Collège d'ingénierie Lyon Saint-Étienne" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/college_ingenierie.png" decoding="async" class="lazyload" data-eio-rwidth="165" data-eio-rheight="52"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/college_ingenierie.png" alt="Collège d'ingénierie Lyon Saint-Étienne" data-eio="l"></noscript></a> <a href="https://www.label-ddrs.org/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABIAQMAAABfrzAlAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABBJREFUGBljGAWjYBTQDAAAA2AAAY+CKLIAAAAASUVORK5CYII=" alt="Développement durable & responsabilité sociétale" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/ddrs-fr.png" decoding="async" class="lazyload" data-eio-rwidth="82" data-eio-rheight="72"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/ddrs-fr.png" alt="Développement durable & responsabilité sociétale" data-eio="l"></noscript></a> <a href="https://institutnr.org/nos-adherents" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABNJREFUGBljGAWjYBSMglFAVwAABXgAAdxFAhsAAAAASUVORK5CYII=" alt="Label Numérique Responsable" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/LeNumeriqueResponsable1.png" decoding="async" class="lazyload" data-eio-rwidth="100" data-eio-rheight="100"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/LeNumeriqueResponsable1.png" alt="Label Numérique Responsable" data-eio="l"></noscript></a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3AQMAAACSFUAFAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAA1JREFUGBljGAVDEgAAAbgAAdk/KPgAAAAASUVORK5CYII=" alt="Bienvenue en France" data-src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/bienvenue_en_france.png" decoding="async" class="lazyload" data-eio-rwidth="55" data-eio-rheight="55"><noscript><img src="https://www.mines-stetienne.fr/wp-content/themes/emse/images/logos-footer/bienvenue_en_france.png" alt="Bienvenue en France" data-eio="l"></noscript></div></footer></div>  <script type="speculationrules">{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/emse/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}</script> <style type="text/css">h2.frq-main-title{
+               font-size: 18px;
+            }
+            .hrf-entry{
+               border:none !important;
+               margin-bottom: 0px !important;
+               padding-bottom: 0px !important;
+            }
+            .hrf-content{
+               display:none;
+               color: #444444;
+               background: ffffff;
+               font-size: 14px;
+               padding: 10px;
+               padding-left: 50px;
+               word-break: normal;
+            }
+            h5.hrf-title{
+               font-size: 15px ;
+               color: #61259e;
+               background: #ffffff;
+               padding: 10px ;
+               padding-left: 50px;
+               margin: 0;
+               -webkit-touch-callout: none;
+               -webkit-user-select: none;
+               -khtml-user-select: none;
+               -moz-user-select: none;
+               -ms-user-select: none;
+               user-select: none;
+               outline-style:none;
+            }
+            .hrf-title.close-faq{
+               cursor: pointer;
+            }
+            .hrf-title.close-faq span{
+               width: 30px;
+               height: 30px;
+               display: inline-block;
+               position: relative;
+               left: 0;
+               top: 8px;
+               margin-right: 12px;
+               margin-left: -42px;
+               background: #61259e url(https://www.mines-stetienne.fr/wp-content/plugins/html5-responsive-faq/images/open.png) no-repeat center center;
+            }
+            }.hrf-title.open-faq{
+            
+            }
+            .hrf-title.open-faq span{
+               width: 30px;
+               height: 30px;
+               display: inline-block;
+               position: relative;
+               left: 0;
+               top: 8px;
+               margin-right: 12px;
+               margin-left: -42px;
+               background: #61259e url(https://www.mines-stetienne.fr/wp-content/plugins/html5-responsive-faq/images/close.png) no-repeat center center;
+            }
+            .hrf-entry p{
+            
+            }
+            .hrf-entry ul{
+            
+            }
+            .hrf-entry ul li{
+            
+            }</style><div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 bottom-right-classic optin cmplz-center cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin"><div class="cmplz-header"><div class="cmplz-logo"></div><div class="cmplz-title" id="cmplz-header-1-optin">Gérer le consentement aux cookies</div><div class="cmplz-close" tabindex="0" role="button" aria-label="close-dialog"> <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg></div></div><div class="cmplz-divider cmplz-divider-header"></div><div class="cmplz-body"><div class="cmplz-message" id="cmplz-message-1-optin"><p>Nous utilisons des cookies pour optimiser notre site web et notre service ; vous avez le contrôle sur ceux que vous souhaitez activer.</p></div><div class="cmplz-categories"> <details class="cmplz-category cmplz-functional" > <summary> <span class="cmplz-category-header"> <span class="cmplz-category-title">Fonctionnel</span> <span class='cmplz-always-active'> <span class="cmplz-banner-checkbox"> <input type="checkbox"
+ id="cmplz-functional-optin"
+ data-category="cmplz_functional"
+ class="cmplz-consent-checkbox cmplz-functional"
+ size="40"
+ value="1"/> <label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Fonctionnel</span></label> </span> Toujours activé </span> <span class="cmplz-icon cmplz-open"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg> </span> </span> </summary><div class="cmplz-description"> <span class="cmplz-description-functional">Le stockage ou l’accès technique est strictement nécessaire dans la finalité d’intérêt légitime de permettre l’utilisation d’un service spécifique explicitement demandé par l’abonné ou l’utilisateur, ou dans le seul but d’effectuer la transmission d’une communication sur un réseau de communications électroniques.</span></div> </details> <details class="cmplz-category cmplz-preferences" > <summary> <span class="cmplz-category-header"> <span class="cmplz-category-title">Préférences</span> <span class="cmplz-banner-checkbox"> <input type="checkbox"
+ id="cmplz-preferences-optin"
+ data-category="cmplz_preferences"
+ class="cmplz-consent-checkbox cmplz-preferences"
+ size="40"
+ value="1"/> <label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Préférences</span></label> </span> <span class="cmplz-icon cmplz-open"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg> </span> </span> </summary><div class="cmplz-description"> <span class="cmplz-description-preferences">Le stockage ou l’accès technique est nécessaire dans la finalité d’intérêt légitime de stocker des préférences qui ne sont pas demandées par l’abonné ou l’utilisateur.</span></div> </details> <details class="cmplz-category cmplz-statistics" > <summary> <span class="cmplz-category-header"> <span class="cmplz-category-title">Statistiques</span> <span class="cmplz-banner-checkbox"> <input type="checkbox"
+ id="cmplz-statistics-optin"
+ data-category="cmplz_statistics"
+ class="cmplz-consent-checkbox cmplz-statistics"
+ size="40"
+ value="1"/> <label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Statistiques</span></label> </span> <span class="cmplz-icon cmplz-open"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg> </span> </span> </summary><div class="cmplz-description"> <span class="cmplz-description-statistics">Le stockage ou l’accès technique qui est utilisé exclusivement à des fins statistiques.</span> <span class="cmplz-description-statistics-anonymous">Le stockage ou l’accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l’absence d’une assignation à comparaître, d’une conformité volontaire de la part de votre fournisseur d’accès à internet ou d’enregistrements supplémentaires provenant d’une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.</span></div> </details> <details class="cmplz-category cmplz-marketing" > <summary> <span class="cmplz-category-header"> <span class="cmplz-category-title">Marketing</span> <span class="cmplz-banner-checkbox"> <input type="checkbox"
+ id="cmplz-marketing-optin"
+ data-category="cmplz_marketing"
+ class="cmplz-consent-checkbox cmplz-marketing"
+ size="40"
+ value="1"/> <label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label> </span> <span class="cmplz-icon cmplz-open"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg> </span> </span> </summary><div class="cmplz-description"> <span class="cmplz-description-marketing">Le stockage ou l’accès technique est nécessaire pour créer des profils d’utilisateurs afin d’envoyer des publicités, ou pour suivre l’utilisateur sur un site web ou sur plusieurs sites web à des fins de marketing similaires.</span></div> </details></div></div><div class="cmplz-links cmplz-information"><ul><li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Gérer les options</a></li><li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gérer les services</a></li><li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gérer {vendor_count} fournisseurs</a></li><li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Read more about TCF purposes on Cookie Database">En savoir plus sur ces finalités</a></li></ul></div><div class="cmplz-divider cmplz-footer"></div><div class="cmplz-buttons"> <button class="cmplz-btn cmplz-accept">Accepter les cookies</button> <button class="cmplz-btn cmplz-deny">Fonctionnels uniquement</button> <button class="cmplz-btn cmplz-view-preferences">Voir les préférences</button> <button class="cmplz-btn cmplz-save-preferences">Enregistrer les préférences</button> <a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Voir les préférences</a></div><div class="cmplz-documents cmplz-links"><ul><li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li><li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li><li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li></ul></div></div></div><div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Gérer le consentement</button></div><div data-elementor-type="popup" data-elementor-id="68952" class="elementor elementor-68952 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;slideInDown&quot;,&quot;exit_animation&quot;:&quot;slideInDown&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]},&quot;avoid_multiple_popups&quot;:&quot;yes&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library"><section class="elementor-section elementor-top-section elementor-element elementor-element-25bef53 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="25bef53" data-element_type="section" data-e-type="section"><div class="elementor-container elementor-column-gap-default"><div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-284e372" data-id="284e372" data-element_type="column" data-e-type="column"><div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-da70a67 elementor-widget elementor-widget-html" data-id="da70a67" data-element_type="widget" data-e-type="widget" data-widget_type="html.default"><div class="elementor-widget-container"> <iframe width="540" height="700"  frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;" data-src="https://9f28fa7f.sibforms.com/serve/MUIEALmaxnGJiJzkfyzxr2AbeuFF6lE6KbsWH9EDXQW2qjbcTwjTeN9bgznkwBtpVgmXEF0q52UYaeClq0nQ3TOZUe6CWCceW8m-eBneYdRJkHS8kLQ0Rus146o26e5tyoxdJRLW4uS8OZ7QjeulErj8waTld3fdq0vlZj3PrIZ3JPrgxygZa6OXgarYOHK71TAMp2kD75UfrEn9" class="lazyload"></iframe></div></div></div></div></div></section></div> <script>const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );</script> <script type="text/javascript" id="eio-lazy-load-js-before">var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":1,"bg_min_dpr":1.1,"threshold":0,"use_dpr":0};
+//# sourceURL=eio-lazy-load-js-before</script> <script type="text/javascript" src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" id="cfturnstile-js" data-wp-strategy="defer"></script> <script type="text/javascript" id="cfturnstile-elementor-forms-js-extra">var cfturnstileElementorSettings = {"sitekey":"0x4AAAAAAAGj1kP32fZOK2w1","position":"before","align":"left","theme":"auto","mode":"turnstile","recaptchaSiteKey":""};
+//# sourceURL=cfturnstile-elementor-forms-js-extra</script> <script type="text/javascript" id="cmplz-cookiebanner-js-extra">var complianz = {"prefix":"cmplz_rt_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"0","banner_version":"588","version":"7.5.7.1","store_consent":"1","do_not_track_enabled":"1","consenttype":"optin","region":"eu","geoip":"0","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"1","dismiss_on_scroll":"","cookie_expiry":"365","url":"https://www.mines-stetienne.fr/wp-json/complianz/v1/","locale":"lang=fr&locale=fr_FR","set_cookies_on_root":"0","cookie_domain":"","current_policy_id":"14","cookie_path":"/","categories":{"statistics":"statistiques","marketing":"marketing"},"tcf_active":"","placeholdertext":"Cliquez pour accepter les cookies de marketing et activer ce contenu","css_file":"https://www.mines-stetienne.fr/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=588","page_links":{"eu":{"cookie-statement":{"title":"Politique de cookies ","url":"https://www.mines-stetienne.fr/mentions-legales/politique-de-cookies-ue/"},"privacy-statement":{"title":"Politique de confidentialit\u00e9","url":"https://www.mines-stetienne.fr/mentions-legales/politique-de-confidentialite/"},"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}},"us":{"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}},"uk":{"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}},"ca":{"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}},"au":{"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}},"za":{"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}},"br":{"disclaimer":{"title":"Mentions l\u00e9gales","url":"https://www.mines-stetienne.fr/mentions-legales/"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Cliquez pour accepter les cookies de marketing et activer ce contenu"};
+//# sourceURL=cmplz-cookiebanner-js-extra</script> <script type="text/javascript" id="cmplz-cookiebanner-js-after">if ('undefined' != typeof window.jQuery) {
+			jQuery(document).ready(function ($) {
+				$(document).on('elementor/popup/show', () => {
+					let rev_cats = cmplz_categories.reverse();
+					for (let key in rev_cats) {
+						if (rev_cats.hasOwnProperty(key)) {
+							let category = cmplz_categories[key];
+							if (cmplz_has_consent(category)) {
+								document.querySelectorAll('[data-category="' + category + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+
+					let services = cmplz_get_services_on_page();
+					for (let key in services) {
+						if (services.hasOwnProperty(key)) {
+							let service = services[key].service;
+							let category = services[key].category;
+							if (cmplz_has_service_consent(service, category)) {
+								document.querySelectorAll('[data-service="' + service + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+				});
+			});
+		}
+    
+    
+		
+			document.addEventListener("cmplz_enable_category", function(consentData) {
+				var category = consentData.detail.category;
+				var services = consentData.detail.services;
+				var blockedContentContainers = [];
+				let selectorVideo = '.cmplz-elementor-widget-video-playlist[data-category="'+category+'"],.elementor-widget-video[data-category="'+category+'"]';
+				let selectorGeneric = '[data-cmplz-elementor-href][data-category="'+category+'"]';
+				for (var skey in services) {
+					if (services.hasOwnProperty(skey)) {
+						let service = skey;
+						selectorVideo +=',.cmplz-elementor-widget-video-playlist[data-service="'+service+'"],.elementor-widget-video[data-service="'+service+'"]';
+						selectorGeneric +=',[data-cmplz-elementor-href][data-service="'+service+'"]';
+					}
+				}
+				document.querySelectorAll(selectorVideo).forEach(obj => {
+					let elementService = obj.getAttribute('data-service');
+					if ( cmplz_is_service_denied(elementService) ) {
+						return;
+					}
+					if (obj.classList.contains('cmplz-elementor-activated')) return;
+					obj.classList.add('cmplz-elementor-activated');
+
+					if ( obj.hasAttribute('data-cmplz_elementor_widget_type') ){
+						let attr = obj.getAttribute('data-cmplz_elementor_widget_type');
+						obj.classList.removeAttribute('data-cmplz_elementor_widget_type');
+						obj.classList.setAttribute('data-widget_type', attr);
+					}
+					if (obj.classList.contains('cmplz-elementor-widget-video-playlist')) {
+						obj.classList.remove('cmplz-elementor-widget-video-playlist');
+						obj.classList.add('elementor-widget-video-playlist');
+					}
+					obj.setAttribute('data-settings', obj.getAttribute('data-cmplz-elementor-settings'));
+					blockedContentContainers.push(obj);
+				});
+
+				document.querySelectorAll(selectorGeneric).forEach(obj => {
+					let elementService = obj.getAttribute('data-service');
+					if ( cmplz_is_service_denied(elementService) ) {
+						return;
+					}
+					if (obj.classList.contains('cmplz-elementor-activated')) return;
+
+					if (obj.classList.contains('cmplz-fb-video')) {
+						obj.classList.remove('cmplz-fb-video');
+						obj.classList.add('fb-video');
+					}
+
+					obj.classList.add('cmplz-elementor-activated');
+					obj.setAttribute('data-href', obj.getAttribute('data-cmplz-elementor-href'));
+					blockedContentContainers.push(obj.closest('.elementor-widget'));
+				});
+
+				/**
+				 * Trigger the widgets in Elementor
+				 */
+				for (var key in blockedContentContainers) {
+					if (blockedContentContainers.hasOwnProperty(key) && blockedContentContainers[key] !== undefined) {
+						let blockedContentContainer = blockedContentContainers[key];
+						if (elementorFrontend.elementsHandler) {
+							elementorFrontend.elementsHandler.runReadyTrigger(blockedContentContainer)
+						}
+						var cssIndex = blockedContentContainer.getAttribute('data-placeholder_class_index');
+						blockedContentContainer.classList.remove('cmplz-blocked-content-container');
+						blockedContentContainer.classList.remove('cmplz-placeholder-' + cssIndex);
+					}
+				}
+
+			});
+		
+		
+		
+			function cmplz_maybe_trigger_yotuwp(){
+				//if not defined, wait a bit
+				if (typeof yotuwp === 'undefined') {
+					setTimeout(cmplz_maybe_trigger_yotuwp, 500);
+				} else {
+					yotuwp.init();
+				}
+			}
+			document.addEventListener("cmplz_enable_category", function(consentData) {
+				var category = consentData.detail.category;
+				var service = consentData.detail.service;
+				let selectorVideo = '.cmplz-yotu-playlist';
+				if (category!=='marketing' && service !== 'youtube' ) {
+					return;
+				}
+				dispatchEvent(new Event('load'));
+				document.querySelectorAll(selectorVideo).forEach(obj => {
+					obj.classList.remove('cmplz-yotu-playlist');
+					obj.classList.remove('cmplz-blocked-content-container');
+					obj.classList.add('yotu-playlist');
+					let index = obj.getAttribute('data-placeholder_class_index');
+					obj.classList.remove('cmplz-placeholder-'+index);
+					cmplz_maybe_trigger_yotuwp();
+				});
+			});
+		
+		
+
+	let cmplzBlockedContent = document.querySelector('.cmplz-blocked-content-notice');
+	if ( cmplzBlockedContent) {
+	        cmplzBlockedContent.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+	}
+    
+//# sourceURL=cmplz-cookiebanner-js-after</script> <script type="text/javascript">document.querySelectorAll("ul.nav-menu").forEach(
+               ulist => { 
+                    if (ulist.querySelectorAll("li").length == 0) {
+                        ulist.style.display = "none";
+
+                                            } 
+                }
+           );</script> <script id="wp-emoji-settings" type="application/json">{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.mines-stetienne.fr/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}</script> <script type="module">/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.mines-stetienne.fr/wp-includes/js/wp-emoji-loader.min.js</script> <script defer src="https://www.mines-stetienne.fr/wp-content/cache/autoptimize/1/js/autoptimize_7fd8e2cbf0d97276ac0ec5b5fabb65b8.js"></script></body></html>

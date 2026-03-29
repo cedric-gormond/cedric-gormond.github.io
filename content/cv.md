@@ -42,7 +42,7 @@ Senior Data Scientist / ML Engineer with 5 years of experience designing and shi
 - Collaborated with international teams to deliver scalable ML solutions in an Agile environment.
 
 <div style="display:flex; align-items:center; gap:12px; margin-bottom:4px; margin-top:1.5em;">
-  <img src="https://logo.clearbit.com/lacroix-group.com" height="36" width="36" style="border-radius:6px; object-fit:contain;" onerror="this.style.display='none'">
+  <img src="/logos/lacroix.png" height="36" style="border-radius:6px; object-fit:contain;">
   <div>
     <strong>Data Scientist R&D Intern</strong> — <em>LACROIX Impulse</em> · Rennes · Feb 2021 – Aug 2021
   </div>
@@ -56,7 +56,7 @@ Senior Data Scientist / ML Engineer with 5 years of experience designing and shi
 ## Education
 
 <div style="display:flex; align-items:center; gap:12px; margin-bottom:4px;">
-  <img src="https://logo.clearbit.com/mines-stetienne.fr" height="36" width="36" style="border-radius:6px; object-fit:contain;" onerror="this.style.display='none'">
+  <img src="/logos/mines-stetienne.png" height="36" style="border-radius:6px; object-fit:contain;">
   <div>
     <strong>MSc. of Research – AI & IoT</strong> · <em>École des Mines de Saint-Étienne</em> · 2020 – 2021<br>
     Double degree — Research Master's in Cyber-Physical and Social Systems, focused on AI and IoT.
@@ -64,7 +64,7 @@ Senior Data Scientist / ML Engineer with 5 years of experience designing and shi
 </div>
 
 <div style="display:flex; align-items:center; gap:12px; margin-bottom:4px; margin-top:1.5em;">
-  <img src="https://logo.clearbit.com/telecom-st-etienne.fr" height="36" width="36" style="border-radius:6px; object-fit:contain;" onerror="this.style.display='none'">
+  <img src="/logos/telecom-st-etienne.svg" height="36" style="border-radius:6px; object-fit:contain;">
   <div>
     <strong>Engineering Degree (MSc. equivalent) – Computer Science</strong> · <em>Télécom Saint-Étienne</em> · 2018 – 2021<br>
     Certified engineering degree in computer science, image processing, big data, and networking.
