@@ -1,0 +1,40 @@
+baseURL: "https://cedric-gormond.github.io/"
+title: Cédric Gormond
+theme: PaperMod
+languageCode: en-us
+paginate: 5
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+
+  profileMode:
+    enabled: true
+    title: "Cédric Gormond"
+    subtitle: "Senior Data Scientist / ML Engineer · Paris, France"
+    imageUrl: ""
+    buttons:
+      - name: CV
+        url: /cv
+      - name: Projects
+        url: /projects
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/cedric-gormond"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/cedric-gormond/"
+    - name: email
+      url: "mailto:cedric.gormond@gmail.com"
+
+menu:
+  main:
+    - name: CV
+      url: /cv/
+      weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2

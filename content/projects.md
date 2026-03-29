@@ -1,11 +1,9 @@
 ---
-layout: default
-title: Projects
+title: "Projects"
+layout: "single"
+url: "/projects/"
+summary: "ML Projects — Cédric Gormond"
 ---
-
-<nav style="margin-bottom: 2em;">
-  <a href="/">CV</a> &nbsp;·&nbsp; <strong>Projects</strong>
-</nav>
 
 ## Projects
 

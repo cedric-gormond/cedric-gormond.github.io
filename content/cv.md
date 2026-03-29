@@ -1,18 +1,8 @@
 ---
-layout: default
----
-
-<nav style="margin-bottom: 2em;">
-  <strong>CV</strong> &nbsp;·&nbsp; <a href="/projects">Projects</a>
-</nav>
-
-## News
-
-- **Mar 2025** — Actively looking for new ML Engineer opportunities in Paris.
-- **Feb 2023** — Joined **Ad Scientiam** as Senior Data Scientist, leading end-to-end ML system delivery.
-- **2024** — PoC on smartphone-based digital biomarkers for motor function assessment published in *Neurology*.
-- **Nov 2021** — Joined **SymphonyAI** as Data Scientist on retail demand forecasting platform.
-
+title: "CV"
+layout: "single"
+url: "/cv/"
+summary: "Curriculum Vitae — Cédric Gormond"
 ---
 
 ## Summary
