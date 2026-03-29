@@ -14,7 +14,7 @@ Senior Data Scientist / ML Engineer with 5 years of experience designing and shi
 ## Experience
 
 <div style="display:flex; align-items:center; gap:12px; margin-bottom:4px;">
-  <img src="https://logo.clearbit.com/adscientiam.com" height="36" width="36" style="border-radius:6px; object-fit:contain;" onerror="this.style.display='none'">
+  <img src="/logos/adscientiam.png" height="36" style="border-radius:6px; object-fit:contain;">
   <div>
     <strong>Senior Data Scientist</strong> — <em>Ad Scientiam</em> · Paris · Feb 2023 – Present
   </div>
@@ -30,7 +30,7 @@ Senior Data Scientist / ML Engineer with 5 years of experience designing and shi
 - Led a Proof-of-Concept on smartphone-based digital biomarkers for motor function assessment, published in *Neurology* (2024).
 
 <div style="display:flex; align-items:center; gap:12px; margin-bottom:4px; margin-top:1.5em;">
-  <img src="https://logo.clearbit.com/symphonyai.com" height="36" width="36" style="border-radius:6px; object-fit:contain;" onerror="this.style.display='none'">
+  <img src="/logos/symphonyai.png" height="36" style="border-radius:6px; object-fit:contain;">
   <div>
     <strong>Data Scientist</strong> — <em>SymphonyAI</em> · Paris · Nov 2021 – Jan 2023
   </div>
