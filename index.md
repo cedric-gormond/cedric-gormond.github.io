@@ -1,3 +1,20 @@
+---
+layout: default
+---
+
+<nav style="margin-bottom: 2em;">
+  <strong>CV</strong> &nbsp;·&nbsp; <a href="/projects">Projects</a>
+</nav>
+
+## News
+
+- **Mar 2025** — Actively looking for new ML Engineer opportunities in Paris.
+- **Feb 2023** — Joined **Ad Scientiam** as Senior Data Scientist, leading end-to-end ML system delivery.
+- **2024** — PoC on smartphone-based digital biomarkers for motor function assessment published in *Neurology*.
+- **Nov 2021** — Joined **SymphonyAI** as Data Scientist on retail demand forecasting platform.
+
+---
+
 ## Summary
 
 Senior Data Scientist / ML Engineer with 5 years of experience designing and shipping production ML systems across audio/speech, computer vision, and predictive modeling. Hands-on across the full stack — from model architecture and training to containerized deployment, monitoring, and MLOps on Azure ML. Experienced building LLM-based pipelines and Generative AI applications, including RAG systems and speech-to-text pipelines.
