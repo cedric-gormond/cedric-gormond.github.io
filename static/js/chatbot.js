@@ -95,6 +95,17 @@ function cbRestore() {
   }
 }
 
+/* ── clear ── */
+function cbClear() {
+  cbHistory = [];
+  cbMessages.innerHTML = "";
+  cbAppend("bot", GREETING);
+  try {
+    localStorage.removeItem(STORAGE_HISTORY);
+    localStorage.removeItem(STORAGE_MSGS);
+  } catch (e) {}
+}
+
 /* ── send ── */
 function cbSendMessage() {
   var message = cbInput.value.trim();

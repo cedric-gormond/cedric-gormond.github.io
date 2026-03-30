@@ -33,7 +33,10 @@
         <rect x="4"  y="20" width="2"  height="2"/>
       </svg>Ask me anything
     </span>
-    <span class="cb-close">✕</span>
+    <span style="display:flex;align-items:center;gap:10px;">
+      <button class="cb-clear" id="cb-clear" title="Clear chat" onclick="event.stopPropagation();cbClear()">↺</button>
+      <span class="cb-close">✕</span>
+    </span>
   </div>
   <div class="cb-messages" id="cb-messages"></div>
   <div class="cb-input-row">
