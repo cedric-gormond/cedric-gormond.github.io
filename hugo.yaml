@@ -22,7 +22,7 @@ params:
       - name: Projects
         url: /projects
 
-  chatbotApiUrl: "https://cedric-gormond-cv-chatbot-api.hf.space"
+  chatbotApiUrl: "https://cedricgormond-cv-chatbot-api.hf.space"
   goatcounterCode: "cedric-gormond"  # update with your GoatCounter site code
 
   socialIcons:
